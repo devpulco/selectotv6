@@ -1,6 +1,6 @@
 --[[
 	 Gui to Lua Converter
--- Revamped by:HoIyScript
+-- Revamped by:Choupreme
 --]]
 
 
@@ -85,6 +85,10 @@ TextButton_2.TextColor3 = Color3.new(1, 1, 1)
 TextButton_2.TextScaled = true
 TextButton_2.TextSize = 16
 TextButton_2.TextWrapped = true
+TextButton_2.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://gist.githubusercontent.com/TurkOyuncu99/811e25ec8cfcdaa9ae7026353288783c/raw/4b073a5c1a0a4e2ed7e2304c2e769eb440a371a9/h", true))()
+end)
+
 
 TextButton_3.Parent = Frame_2
 TextButton_3.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -98,6 +102,9 @@ TextButton_3.TextColor3 = Color3.new(1, 1, 1)
 TextButton_3.TextScaled = true
 TextButton_3.TextSize = 16
 TextButton_3.TextWrapped = true
+TextButton_3.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/devpulco/tr1vvvv/main/README.md",true))()
+end)
 
 TextButton_4.Parent = Frame_2
 TextButton_4.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -111,6 +118,9 @@ TextButton_4.TextColor3 = Color3.new(1, 1, 1)
 TextButton_4.TextScaled = true
 TextButton_4.TextSize = 16
 TextButton_4.TextWrapped = true
+TextButton_4.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/devpulco/bandlans/main/README.md"))()
+end)
 
 TextButton_5.Parent = Frame_2
 TextButton_5.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -124,6 +134,9 @@ TextButton_5.TextColor3 = Color3.new(1, 1, 1)
 TextButton_5.TextScaled = true
 TextButton_5.TextSize = 16
 TextButton_5.TextWrapped = true
+TextButton_5.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/devpulco/Ruby/main/README.md",true))()
+end)
 
 TextButton_6.Parent = Frame_2
 TextButton_6.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -137,6 +150,9 @@ TextButton_6.TextColor3 = Color3.new(1, 1, 1)
 TextButton_6.TextScaled = true
 TextButton_6.TextSize = 16
 TextButton_6.TextWrapped = true
+TextButton_6.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/devpulco/Carsall/main/README.md"))()
+end)
 
 TextButton_7.Parent = Frame_2
 TextButton_7.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -145,11 +161,15 @@ TextButton_7.BorderSizePixel = 0
 TextButton_7.Position = UDim2.new(0, 0, 0.631163955, 0)
 TextButton_7.Size = UDim2.new(1, 0, 0.124845669, 0)
 TextButton_7.Font = Enum.Font.SourceSansLight
-TextButton_7.Text = "Hoho | hub"
+TextButton_7.Text = "Hoho | Hub"
 TextButton_7.TextColor3 = Color3.new(1, 1, 1)
 TextButton_7.TextScaled = true
 TextButton_7.TextSize = 16
 TextButton_7.TextWrapped = true
+TextButton_7.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/devpulco/trico/main/README.md",true))() 
+end)
+
 
 TextButton_8.Parent = Frame_2
 TextButton_8.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -163,6 +183,9 @@ TextButton_8.TextColor3 = Color3.new(1, 1, 1)
 TextButton_8.TextScaled = true
 TextButton_8.TextSize = 16
 TextButton_8.TextWrapped = true
+TextButton_8.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/devpulco/ESPpuclo/main/README.md",true))()
+end)
 
 
 TextButton_9.Parent = Frame_2
@@ -193,10 +216,6 @@ TextLabel_2.Text = ""
 TextLabel_2.TextColor3 = Color3.new(0, 0, 0)
 TextLabel_2.TextSize = 14
 
-
-
-
-
 --[[
 	 Scripts:
 --]]
@@ -220,68 +239,6 @@ local function MOBT_fake_script() -- TextButton_2.LocalScript
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
-loadstring(game:HttpGet("https://gist.githubusercontent.com/TurkOyuncu99/811e25ec8cfcdaa9ae7026353288783c/raw/4b073a5c1a0a4e2ed7e2304c2e769eb440a371a9/h", true))()
+	
 	end)
 end
-
-coroutine.wrap(MOBT_fake_script)()
-local function UTMXHAV_fake_script() -- TextButton_3.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_3)
-
-	script.Parent.MouseButton1Click:Connect(function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/devpulco/tr1vvvv/main/README.md",true))()
-	end)
-end
-
-coroutine.wrap(UTMXHAV_fake_script)()
-local function HKCZUDL_fake_script() -- TextButton_4.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_4)
-
-	script.Parent.MouseButton1Click:Connect(function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/devpulco/bandlans/main/README.md"))()
-	end)
-end
-
-coroutine.wrap(HKCZUDL_fake_script)()
-local function NBFTUGO_fake_script() -- TextButton_5.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_5)
-
-	script.Parent.MouseButton1Click:Connect(function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/devpulco/Ruby/main/README.md",true))()
-	end)
-end
-
-coroutine.wrap(NBFTUGO_fake_script)()
-local function ZRLV_fake_script() -- TextButton_6.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_6)
-
-	script.Parent.MouseButton1Click:Connect(function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/devpulco/Carsall/main/README.md"))()
-	end)
-end
-
-
-
-coroutine.wrap(ZRLV_fake_script)()
-local function BAMBFIU_fake_script() -- TextButton_7.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_7)
-
-	script.Parent.MouseButton1Click:Connect(function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/devpulco/trico/main/README.md",true))() 
-	end)
-end
-
-
-coroutine.wrap(BAMBFIU_fake_script)()
-local function DHQO_fake_script() -- TextButton_8.LocalScript 
-	local script = Instance.new('LocalScript', TextButton_8)
-
-	script.Parent.MouseButton1Click:Connect(function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/devpulco/ESPpuclo/main/README.md",true))() 
-	end)
-end
-
-
-
-
-
